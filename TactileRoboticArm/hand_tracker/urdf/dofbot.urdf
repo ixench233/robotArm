@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<robot name="yahboom_dofbot">
+    <link name="base_link"/>
+    <link name="arm_link1"/>
+    <link name="arm_link2"/>
+    <link name="arm_link3"/>
+    <link name="arm_link4"/>
+    <link name="arm_link5"/>
+    <link name="rlink1"/>
+    <link name="rlink2"/>
+
+    <joint name="arm_joint1" type="revolute">
+        <origin xyz="0 0 0.06605" rpy="-0.010805 0 1.5" />
+        <parent link="base_link" />
+        <child link="arm_link1" />
+        <axis xyz="0 0 1" />
+        <limit lower="-1.5708" upper="1.5708" />
+    </joint>
+    <joint name="arm_joint2" type="revolute">
+        <origin xyz="0 0 0.0405" rpy="-1.5708 0 0" />
+        <parent link="arm_link1" />
+        <child link="arm_link2" />
+        <axis xyz="0 0 -1" />
+        <limit lower="-1.5708" upper="1.5708" />
+    </joint>
+    <joint name="arm_joint3" type="revolute">
+        <origin xyz="0 -0.0829 0" rpy="0 0 0" />
+        <parent link="arm_link2" />
+        <child link="arm_link3" />
+        <axis xyz="0 0 -1" />
+        <limit lower="-1.5708" upper="1.5708" />
+    </joint>
+    <joint name="arm_joint4" type="revolute">
+        <origin xyz="0 -0.0829 0" rpy="0 0 0" />
+        <parent link="arm_link3" />
+        <child link="arm_link4" />
+        <axis xyz="0 0 -1" />
+        <limit lower="-1.5708" upper="1.5708" />
+    </joint>
+    <joint name="arm_joint5" type="revolute">
+        <origin xyz="-0.00215 -0.17455 0" rpy="1.5708 0 0" />
+        <parent link="arm_link4" />
+        <child link="arm_link5" />
+        <axis xyz="0 0 1" />
+        <limit lower="-1.5708" upper="3.14159" />
+    </joint>
+    <joint name="grip_joint" type="revolute">
+        <origin xyz="-0.0035 -0.012625 -0.0685" rpy="0 -1.5708 0" />
+        <parent link="arm_link5" />
+        <child link="rlink1" />
+        <axis xyz="0 0 1" />
+        <limit lower="-1.54" upper="0" />
+    </joint>
+    <joint name="rlink_joint2" type="continuous">
+        <origin xyz="0.03 -0.00075429 0" rpy="0 0 0" />
+        <parent link="rlink1" />
+        <child link="rlink2" />
+        <axis xyz="0 0 1" />
+    </joint>
+</robot>

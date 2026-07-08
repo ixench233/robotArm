@@ -1,0 +1,16 @@
+[project]
+name = "hand_tracker"
+version = "0.1.0"
+description = "6-DOF robotic arm control using RealSense, OpenCV, and MediaPipe"
+readme = "README.md"
+license = {text = "GPL-3.0"}
+requires-python = ">=3.11"
+dependencies = [
+    "ikpy>=3.4.2",
+    "matplotlib>=3.10.3",
+    "mediapipe>=0.10.21",
+    "numpy>=1.26.4",
+    "opencv-python>=4.11.0.86",
+    "pyrealsense2>=2.55.1.6486",
+    "websockets>=15.0.1",
+]
