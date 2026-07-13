@@ -1,0 +1,99 @@
+{
+  "board_view_pose": [
+    90,
+    113,
+    0,
+    1,
+    86,
+    89
+  ],
+  "board": {
+    "score": 1288.25,
+    "complete": true,
+    "horizontal_lines": 20,
+    "vertical_lines": 4,
+    "horizontal_candidates": [
+      160.0,
+      283.4,
+      361.5,
+      408.8
+    ],
+    "vertical_candidates": [
+      210.0,
+      478.8
+    ],
+    "horizontal_clusters": [],
+    "vertical_clusters": [],
+    "area_ratio": 0.0,
+    "aspect": 0.0,
+    "center_error": 0.0,
+    "regularity": {
+      "horizontal_gap_error": 0.4879,
+      "vertical_gap_error": null
+    },
+    "intersection_grid": {
+      "grid_style": "two_internal_lines",
+      "score": 1413.79,
+      "horizontal_pair": [
+        160.0,
+        361.5
+      ],
+      "vertical_pair": [
+        210.0,
+        478.8
+      ],
+      "cell_width": 268.8,
+      "cell_height": 201.5,
+      "aspect": 1.3337,
+      "support_mean": 0.4513,
+      "min_intersection": 0.1678,
+      "strong_intersections": 4,
+      "visible_expected_lines": {
+        "horizontal": 2,
+        "vertical": 2
+      },
+      "visible_cell_count": 9,
+      "uniformity": 0.3529,
+      "area_ratio": 0.1763,
+      "center_error": 0.0813,
+      "expected_horizontal": [
+        -41.5,
+        160.0,
+        361.5,
+        563.0
+      ],
+      "expected_vertical": [
+        -58.8,
+        210.0,
+        478.8,
+        747.5
+      ],
+      "frame_rows": [
+        0.0,
+        160.0,
+        361.5,
+        480.0
+      ],
+      "frame_cols": [
+        0.0,
+        210.0,
+        478.8,
+        640.0
+      ],
+      "found": true
+    },
+    "support": {
+      "horizontal": [],
+      "vertical": [],
+      "mean": 0.0,
+      "intersections": 0
+    },
+    "margins": {
+      "left": 0.0,
+      "right": 0.0,
+      "top": 0.0,
+      "bottom": 0.0
+    }
+  },
+  "saved_at": "2026-07-08 18:28:40"
+}

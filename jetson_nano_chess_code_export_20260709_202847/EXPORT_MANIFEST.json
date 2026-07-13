@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-07-09 20:28:47",
+  "host": "172.20.10.11",
+  "user": "jetson",
+  "description": "Jetson Nano chess-related code export only",
+  "files": [
+    {
+      "remote": "/home/jetson/dofbot_web_control.py",
+      "local": "dofbot_web_control.py",
+      "size": 145254,
+      "sha256": "38849326167791e908ef282f41fb3978b9f030a1a1446f791f04aa48897b7721",
+      "remote_mtime": "2026-07-09 20:05:48"
+    },
+    {
+      "remote": "/home/jetson/track2_game_ai.py",
+      "local": "track2_game_ai.py",
+      "size": 12081,
+      "sha256": "4005e4694dbd5e18827e87a48ddc25b5cd44db1e9949d323ce1f69f6af915d7d",
+      "remote_mtime": "2026-07-09 19:35:57"
+    },
+    {
+      "remote": "/home/jetson/dofbot_cell_poses.json",
+      "local": "dofbot_cell_poses.json",
+      "size": 3238,
+      "sha256": "cdd4fafd3640b86d80e65daee825a34323a3e213debf7e1ea3db923959975990",
+      "remote_mtime": "2026-07-09 20:11:38"
+    },
+    {
+      "remote": "/home/jetson/dofbot_board_view.json",
+      "local": "dofbot_board_view.json",
+      "size": 1820,
+      "sha256": "2268b59ae87f88fb87a92f08e815849b42901f6c37118f1f7209ea8d94b7875f",
+      "remote_mtime": "2026-07-08 18:28:40"
+    }
+  ],
+  "remote_process": ""
+}

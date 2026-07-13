@@ -1,0 +1,18 @@
+﻿Jetson Nano code export
+Created: 2026-07-09 20:26:46
+Workspace: D:\SynologyDrive\zjut\engineer-project\robotArm
+
+Status:
+- Live SSH export from 172.20.10.11 failed: host/ports unreachable during export.
+- This package contains the latest core files already fetched/modified locally plus the previous Jetson backup folder.
+
+Included:
+- current_core_files/dofbot_web_control.py
+- current_core_files/track2_game_ai.py
+- current_core_files/dofbot_cell_poses.json
+- previous_backup_20260709_171329/
+- local_project_related/
+
+Last known Jetson SSH:
+- host: 172.20.10.11
+- user: jetson

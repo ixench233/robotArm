@@ -1,0 +1,175 @@
+{
+  "updated_at": "2026-07-09 20:11:38",
+  "cells": {
+    "cell_11": {
+      "label": "左上",
+      "pose": [
+        103,
+        16,
+        82,
+        33,
+        270
+      ],
+      "last_place_pose": null,
+      "last_place_angles": null,
+      "recorded_at": null,
+      "last_pick_pose": null,
+      "last_pick_angles": null,
+      "pick_recorded_at": null
+    },
+    "cell_12": {
+      "label": "上中",
+      "pose": [
+        90,
+        23,
+        71,
+        33,
+        270
+      ],
+      "last_place_pose": [
+        90,
+        23,
+        71,
+        33,
+        270
+      ],
+      "last_place_angles": [
+        90,
+        23,
+        71,
+        33,
+        270,
+        60
+      ],
+      "recorded_at": "2026-07-09 20:11:38",
+      "last_pick_pose": null,
+      "last_pick_angles": null,
+      "pick_recorded_at": null
+    },
+    "cell_13": {
+      "label": "右上",
+      "pose": [
+        76,
+        16,
+        82,
+        33,
+        270
+      ],
+      "last_place_pose": null,
+      "last_place_angles": null,
+      "recorded_at": null,
+      "last_pick_pose": null,
+      "last_pick_angles": null,
+      "pick_recorded_at": null
+    },
+    "cell_21": {
+      "label": "左中",
+      "pose": [
+        106,
+        53,
+        26,
+        36,
+        254
+      ],
+      "last_place_pose": null,
+      "last_place_angles": null,
+      "recorded_at": null,
+      "last_pick_pose": null,
+      "last_pick_angles": null,
+      "pick_recorded_at": null
+    },
+    "cell_22": {
+      "label": "中间",
+      "pose": [
+        90,
+        53,
+        26,
+        36,
+        270
+      ],
+      "last_place_pose": [
+        90,
+        56,
+        26,
+        35,
+        270
+      ],
+      "last_place_angles": [
+        90,
+        56,
+        26,
+        35,
+        270,
+        60
+      ],
+      "recorded_at": "2026-07-09 20:11:10",
+      "last_pick_pose": null,
+      "last_pick_angles": null,
+      "pick_recorded_at": null
+    },
+    "cell_23": {
+      "label": "右中",
+      "pose": [
+        72,
+        53,
+        26,
+        36,
+        270
+      ],
+      "last_place_pose": null,
+      "last_place_angles": null,
+      "recorded_at": null,
+      "last_pick_pose": null,
+      "last_pick_angles": null,
+      "pick_recorded_at": null
+    },
+    "cell_31": {
+      "label": "左下",
+      "pose": [
+        114,
+        69,
+        9,
+        27,
+        248
+      ],
+      "last_place_pose": null,
+      "last_place_angles": null,
+      "recorded_at": null,
+      "last_pick_pose": null,
+      "last_pick_angles": null,
+      "pick_recorded_at": null
+    },
+    "cell_32": {
+      "label": "下中",
+      "pose": [
+        90,
+        77,
+        0,
+        27,
+        270
+      ],
+      "last_place_pose": null,
+      "last_place_angles": null,
+      "recorded_at": null,
+      "last_pick_pose": null,
+      "last_pick_angles": null,
+      "pick_recorded_at": null
+    },
+    "cell_33": {
+      "label": "右下",
+      "pose": [
+        68,
+        69,
+        9,
+        27,
+        270
+      ],
+      "last_place_pose": null,
+      "last_place_angles": null,
+      "recorded_at": null,
+      "last_pick_pose": null,
+      "last_pick_angles": null,
+      "pick_recorded_at": null
+    }
+  }
+}
