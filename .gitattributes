@@ -1,0 +1,8 @@
+*.exe binary
+*.jpg binary
+*.jpeg binary
+*.mp4 binary
+*.pdf binary
+*.png binary
+*.pyc binary
+*.zip binary
