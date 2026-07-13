@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DOFBOT Web Control</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <h1>DOFBOT Web Control</h1>
+          <p>摄像头、聊天意图、手势识别、人脸追踪、动作记忆统一控制台</p>
+        </div>
+        <div class="status-pill" id="robotMode">mode: loading</div>
+      </header>
+
+      <section class="layout">
+        <div class="video-panel">
+          <div class="panel-head">
+            <h2>实时视觉</h2>
+            <div class="inline-status">
+              <span id="cameraStatus">camera: --</span>
+              <span id="visionStatus">vision: --</span>
+            </div>
+          </div>
+          <img class="video" src="{{ url_for('video_feed') }}" alt="机械臂摄像头实时画面">
+        </div>
+
+        <aside class="side-panel">
+          <section class="panel">
+            <h2>快速动作</h2>
+            <div class="button-grid">
+              <button data-action="home">归位</button>
+              <button data-action="wave">挥手</button>
+              <button data-action="nod">点头</button>
+              <button data-action="applaud">鼓掌</button>
+              <button data-action="dance">跳舞</button>
+              <button class="danger" data-action="stop">停止</button>
+            </div>
+          </section>
+
+          <section class="panel">
+            <h2>模式</h2>
+            <div class="button-grid">
+              <button data-mode="face_follow">人脸追踪</button>
+              <button data-mode="gesture">手势控制</button>
+              <button data-mode="idle">空闲</button>
+            </div>
+          </section>
+
+          <section class="panel">
+            <h2>聊天控制</h2>
+            <form id="chatForm" class="chat-form">
+              <label for="chatInput">自然语言指令</label>
+              <div class="input-row">
+                <input id="chatInput" name="text" autocomplete="off" placeholder="例如：看着我 / 挥手 / 停止">
+                <button type="submit">发送</button>
+              </div>
+            </form>
+            <p class="reply" id="chatReply">等待指令</p>
+          </section>
+
+          <section class="panel">
+            <h2>记忆学习</h2>
+            <label for="sequenceName">动作组名称</label>
+            <div class="input-row">
+              <input id="sequenceName" value="demo">
+              <button id="recordStep" type="button">记录</button>
+            </div>
+            <div class="button-grid">
+              <button id="playSequence" type="button">回放</button>
+              <button id="loadSequence" type="button">加载</button>
+            </div>
+            <pre id="sequenceView">[]</pre>
+          </section>
+        </aside>
+      </section>
+
+      <section class="bottom-grid">
+        <div class="panel">
+          <h2>状态</h2>
+          <dl class="metrics">
+            <div><dt>运行</dt><dd id="running">--</dd></div>
+            <div><dt>来源</dt><dd id="source">--</dd></div>
+            <div><dt>模拟</dt><dd id="simulation">--</dd></div>
+            <div><dt>手势</dt><dd id="gesture">--</dd></div>
+            <div><dt>人脸偏移</dt><dd id="faceOffset">--</dd></div>
+            <div><dt>舵机</dt><dd id="joints">--</dd></div>
+          </dl>
+        </div>
+        <div class="panel">
+          <h2>事件日志</h2>
+          <ol class="log" id="log"></ol>
+        </div>
+      </section>
+    </main>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+  </body>
+</html>
+

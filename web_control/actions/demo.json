@@ -1,0 +1,22 @@
+[
+  {
+    "name": "home",
+    "joints": [90, 135, 0, 45, 90, 90],
+    "duration": 1000
+  },
+  {
+    "name": "wave_left",
+    "joints": [70, 130, 20, 25, 90, 90],
+    "duration": 500
+  },
+  {
+    "name": "wave_right",
+    "joints": [115, 130, 20, 25, 90, 90],
+    "duration": 500
+  },
+  {
+    "name": "home",
+    "joints": [90, 135, 0, 45, 90, 90],
+    "duration": 1000
+  }
+]
